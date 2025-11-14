@@ -5,7 +5,7 @@ This repo contains the HW#2 about the Character Build of Sakamoto Days using CSS
 No installation required. Simply download the zip file and extract
 ## Usage 
 Open index.html in the browser of your choice
-## Contributing 👩
+## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
