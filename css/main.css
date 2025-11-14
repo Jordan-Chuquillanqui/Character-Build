@@ -1,0 +1,172 @@
+.hidden { 
+    display: none; 
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a1a1a;
+  color: #fbd50e;
+}
+
+/* main header rules */
+header {
+    background-color: #fbd50e;
+    padding: 15px 0; 
+}
+
+#main-logo { 
+    width: 300px; 
+    display: block;
+    margin: 0 auto;
+}
+
+/* main rules here */
+#character_nav {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #675b50;
+    background-image: url('../images/sakamoto-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#characters { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters li { 
+    display: inline;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+#characters li img {
+    padding: 5px;
+    border: solid 5px #1a1a1a;
+    transition: all .5s ease-in-out;
+    background-color: #fbd50e;
+    
+}
+
+#characters li a { 
+    text-decoration: none; 
+}
+
+#characters li img:hover { 
+    filter: grayscale(100%) blur(1px);
+    border-radius: 100% 100% 0 100%;
+}
+
+#instructions { 
+    padding: 20px; 
+}
+
+#instructions h3  {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#instructions p {  
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+/* footer rules here */
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main-footer {
+    height: 80px;
+    background-color: rgb(20, 20, 20);
+}
+
+/* LightBox rules */
+
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.85);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+#lightbox1 {
+    background-image: url(../images/Sakamoto.png);
+}
+
+#lightbox2 {
+    background-image: url(../images/Shin.png);
+}
+
+#lightbox3 {
+    background-image: url(../images/Lu.png);
+}
+
+#lightbox4 {
+    background-image: url(../images/Heisuke.png);
+}
+
+#lightbox5 {
+    background-image: url(../images/Slur.png);
+}
+
+#lightbox6 {
+    background-image: url(../images/Gaku.png);
+}
+
+#lightbox7 {
+    background-image: url(../images/Nagumo.png);
+}
+
+#lightbox8 {
+    background-image: url(../images/Osaragi.png);
+}
+
+.lightbox-close {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 95vw;
+    transition: all .5s ease-in-out;
+}
+
+
+.lightbox-close:hover {
+    color: red;
+}
+
+.lightbox section {
+    width: 600px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.lb-heading {
+    font-size: 36px;
+}
+    
+.lightbox p {
+
+    line-height: 26px;
+}
+
